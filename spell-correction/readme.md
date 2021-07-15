@@ -1,4 +1,4 @@
-#Spell Correction Report
+# Spell Correction Report
 
 ## 1. Preparation
 
@@ -29,7 +29,7 @@ From the distance between the positions of '+' and '-' , I can get the edit type
 
 Because "-" will be in the result of the comparison between two words, the "-" in the error_dict (generated according to `spell-error.txt`) is ambiguous. If '-' appears in the pair, I used '#' to replace it. This bug took me a lot of time to fix.
 
-####1.2.3 Matrix Meaning
+#### 1.2.3 Matrix Meaning
 
 Here I give some examples of the item in the 4 matrixs.
 
@@ -120,7 +120,7 @@ output: ([0, 0, 0, 1], 1, {'ins': '', 'del': '', 'sub': '', 'trans': 'c'}, {'ins
 
 Considering adding operation is faster than multiplying and to avoid underflow, I do **logarithmic computation** to the probability result.
 
-###3.1 Unigram
+### 3.1 Unigram
 
 The general definition of the 1-gram language model is like this:
 $$
