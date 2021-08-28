@@ -270,19 +270,20 @@ self.fc = nn.Linear(hidden_size, n_class)
 <table>
 	<tr>         
 		<td>     
-			<img src=./code/images/train_acc2.svg border=0,width="600px" height="120px">
+			<img src=./images/train_acc2.svg border=0,width="600px" height="120px">
       <center>图1(a) train_acc</center>
 		</td>
 		<td>
-			<img src=./code/images/val_acc2.svg border=0,width="600px" height="120px">
+			<img src=./images/val_acc2.svg border=0,width="600px" height="120px">
       <center>图1(b) val_acc</center>
 		</td>
         <td>
-            <img src=./code/images/train_acc2.svg border=0,width="600px" height="120px">
+            <img src=./images/train_acc2.svg border=0,width="600px" height="120px">
         	<center>图1(c) loss</center>
         </td>
 	</tr>
 </table>
+
 
 
 (2) 如图所示为glove嵌入初始化，Embedding_dim=100，Dropout=0.5，训练过程中loss与训练集、测试集准确率的变化，最终训练集的准确率达到95%，但是测试集准确率却和random嵌入初始化差不多，但是在第5轮的时候测试集准确率就达到了最大值，而random初始化在第15轮的时候达到最大值。
@@ -290,19 +291,20 @@ self.fc = nn.Linear(hidden_size, n_class)
 <table>
 	<tr>         
 		<td>     
-			<img src=./code/images/train_acc.svg border=0,width="600px" height="120px">
+			<img src=./images/train_acc.svg border=0,width="600px" height="120px">
       <center>图2(a) train_acc</center>
 		</td>
 		<td>
-			<img src=./code/images/val_acc.svg border=0,width="600px" height="120px">
+			<img src=./images/val_acc.svg border=0,width="600px" height="120px">
       <center>图2(b) val_acc</center>
 		</td>
         <td>
-            <img src=./code/images/train_loss.svg border=0,width="600px" height="120px">
+            <img src=./images/train_loss.svg border=0,width="600px" height="120px">
         	<center>图2(c) loss</center>
         </td>
 	</tr>
 </table>
+
 
 
 (3) 其他参数设置
@@ -326,19 +328,20 @@ self.fc = nn.Linear(hidden_size, n_class)
 <table>
 	<tr>         
 		<td>     
-			<img src= ./code/images/train_acc3.svg border=0,width="600px" height="120px">
+			<img src= ./images/train_acc3.svg border=0,width="600px" height="120px">
       <center>图3(a) train_acc</center>
 		</td>
 		<td>
-			<img src=./code/images/val_acc3.svg border=0,width="600px" height="120px">
+			<img src=./images/val_acc3.svg border=0,width="600px" height="120px">
       <center>图3(b) val_acc</center>
 		</td>
         <td>
-            <img src=./code/images/train_loss3.svg border=0,width="600px" height="120px">
+            <img src=./images/train_loss3.svg border=0,width="600px" height="120px">
         	<center>图3(c) loss</center>
         </td>
 	</tr>
 </table>
+
 
 
 (2) 其他参数设置
