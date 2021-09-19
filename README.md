@@ -1,5 +1,5 @@
 # nlp-project
-some projects for nlp beginner
+some projects for nlp beginner (tasks from Fudan NLP)
 ## spell-correction
 实现拼写纠错
 ## text-classification(numpy)
