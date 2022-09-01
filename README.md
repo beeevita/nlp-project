@@ -1,5 +1,6 @@
 # nlp-project
 some projects for nlp beginner (tasks from Fudan NLP)
+复旦NLP的五个任务
 ## spell-correction
 实现拼写纠错
 ## text-classification(numpy)
